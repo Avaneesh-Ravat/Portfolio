@@ -10,29 +10,38 @@
 </head>
 <body>
 
-    <--Header of portfolio -->
+    <!--Header of portfolio -->
 
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-
-        <i class="fa-solid fa-bars"></i>
-
         <nav class="navbar">
-            <a href="#Home" class="active">Home</a>
-            <a href="#About">About</a>
-            <a href="#Services">Services</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
+            <h1 class="logo">Portfolio</h1>
+
+            <!-- <i class="fa-solid fa-bars"></i>     -->
+            <ul>
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <-- Home section -->
+    <!-- Home section -->
     <section class="home" id="home">
-        <h3>Hi, Myself</h3>
-        <h1>Avaneesh Ravat</h1>
-        <h3>and I am Frontend Developer</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorum ad, accusantium, minus facilis ipsa cum quod cupiditate totam nobis nihil laudantium. Delectus cupiditate pariatur eaque neque, nostrum deserunt ducimus dolor incidunt excepturi distinctio doloribus officia iusto repudiandae, id totam voluptatem exercitationem iste animi provident nisi ullam eos! Facilis nihil dicta animi accusamus.</p>
-        
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Avaneesh Ravat</h1>
+            <h3>and I am Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorum ad, accusantium, minus facilis ipsa cum quod cupiditate totam nobis nihil laudantium. Delectus cupiditate pariatur eaque neque, nostrum deserunt ducimus dolor incidunt excepturi distinctio doloribus officia iusto repudiandae, id totam voluptatem exercitationem iste animi provident nisi ullam eos! Facilis nihil dicta animi accusamus.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="images/Profile_image.png" alt="">
+        </div>
     </section>
 
     <script src="app.js"></script>
